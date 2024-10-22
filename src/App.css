@@ -1,0 +1,78 @@
+body{
+  background: rgb(27,38,59);
+  background: radial-gradient(circle, rgba(27,38,59,1) 19%, rgba(13,27,42,1) 47%);
+}
+.sport-header{
+  font-family: "Montserrat", sans-serif;
+}
+.classic-header{
+  font-family: "Playfair Display SC", serif;
+  color: white;
+}
+p{
+  font-family: "Roboto", sans-serif;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0f172a; /* Dark background as per your request */
+}
+
+.canvas {
+  width: 100vw;
+  height: 100vh;
+}
+
+.text-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.sport-header,
+.classic-header {
+  color: white;
+  font-size: 5vw; /* Scalable text size */
+}
+
+.animated-text {
+  color: #f1f1f1;
+  font-size: 4vw; /* Scalable text size */
+}
+
+@media (max-width: 768px) {
+  /* For smaller screens, make adjustments */
+  .sport-header,
+  .classic-header {
+    font-size: 6vw;
+  }
+
+  .animated-text {
+    font-size: 5vw;
+  }
+
+  .canvas {
+    height: 40vh;
+  }
+}
+
+@media (max-width: 480px) {
+  /* For mobile screens */
+  
+  .sport-header,
+  .classic-header {
+    font-size: 8vw;
+  }
+
+  .animated-text {
+    font-size: 6vw;
+  }
+
+  .canvas {
+    /* height: 35vh; */
+    height: 50vh;
+  }
+  .wheel{
+    width: 6vw;
+  }
+}
